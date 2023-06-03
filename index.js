@@ -3,7 +3,7 @@ const express = require("express");
 
 require("dotenv").config();
 
-const bot = new Bot(process.env.BOT_TOKEN);
+const bot = new Bot(process.env.BOT_TOKEN);6283634247:AAFaxrJF7BTPBC23XgJ2uzVY6qBpMmHEXD0
 
 bot.command("start", (ctx) => ctx.reply("Welcome! Up and running."));
 bot.on("message", (ctx) => ctx.reply("Got another message!"));
